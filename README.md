@@ -43,3 +43,6 @@ I won't be pushing updates until the day after each challenge, although I will c
 
 ## Day 12:
   I forgot to write down my thoughts about this one, oops! I believe it was fairly straightforward, looking back on the code 3 days later it seems pretty readable, so I'd say it was probably fairly "normal".
+
+## Day 13:
+  I started like I normally do today, just naively following the problem and building a solution out of loops. This worked fine for part one, but part two was very clearly designed to prevent exactly this, so it didn't work for that. After a bit of thinking, I realized this is just a pair of linear equations that can be solved just as they teach in math class. I wrote down the equations, gave everything variables, and then solved for the A presses, and then the B presses, which is how I arrived at the formulas used in the solution. The code block-commented out is the old code from part one.
