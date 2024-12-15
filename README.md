@@ -37,3 +37,6 @@ I won't be pushing updates until the day after each challenge, although I will c
 
 ## Day 10:
   Yay, double digits! This one felt fairly intuitive and I decided to start by writing the method to find the next increasing number for the trail, since I knew I would need that. From there, it was fairly simple to just try each direction to see if it can increase, recurse until reaching a 9 or a deadend, and then just return back up the chain to get the final result. Because of this, I got very lucky and was able to solve part two in a minute and 18 seconds, which was very nice.
+
+## Day 11:
+  I learned about `functools.cache()` and can't believe I've gone this long without knowing about it. After about 45 minutes struggling with part two, I decided to check the subreddit to see if I could find any hints, and saw [a meme mentioning it](https://www.reddit.com/r/adventofcode/comments/1hbmcoc/2024_day_11_part_2_when_in_doubt_reach_for_old/), which led me to read up on it with the Python docs. Turns out, it's the perfect solution to the problem and, after rewriting the entire program, it works far better, faster, and runs in a reasonable amount of time (near-instant!) for both parts. I left my original method in `day-11.bruteforce.py` which I used to solve part one.
