@@ -40,3 +40,6 @@ I won't be pushing updates until the day after each challenge, although I will c
 
 ## Day 11:
   I learned about `functools.cache()` and can't believe I've gone this long without knowing about it. After about 45 minutes struggling with part two, I decided to check the subreddit to see if I could find any hints, and saw [a meme mentioning it](https://www.reddit.com/r/adventofcode/comments/1hbmcoc/2024_day_11_part_2_when_in_doubt_reach_for_old/), which led me to read up on it with the Python docs. Turns out, it's the perfect solution to the problem and, after rewriting the entire program, it works far better, faster, and runs in a reasonable amount of time (near-instant!) for both parts. I left my original method in `day-11.bruteforce.py` which I used to solve part one.
+
+## Day 12:
+  I forgot to write down my thoughts about this one, oops! I believe it was fairly straightforward, looking back on the code 3 days later it seems pretty readable, so I'd say it was probably fairly "normal".
